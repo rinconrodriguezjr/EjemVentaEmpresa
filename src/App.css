@@ -1,0 +1,115 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+  /* padding-top: 1rem; */
+  /* margin-top: 1rem; */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.techcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: rgba(4, 63, 119, 0.432);
+  width: 100vw;
+  height: 80vh;
+}
+
+.techcontainer h1{
+  color: brown;
+}
+
+.techcontainer h2{
+  color: brown;
+}
+
+.techcontainer li{
+  list-style: none;
+}
+
+.techcontainer ul li{
+  color: aliceblue;
+  list-style: none;
+}
+
+.Portmain img{
+  width: 100%;
+}
+
+/* .slidercontainer{
+  margin: 0 auto;
+  overflow-x: hidden;
+  border: 1px solid rgb(5, 5, 75);
+}
+
+.slider{
+  display: flex;
+  cursor: 30rem;
+}
+
+.item{
+  height: 40rem;
+  width: 40rem;
+  padding: 2rem;
+} */
+
+.item img{
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.maincontainer{
+  padding: 2rem;
+}
+
+.mainnavcontainer{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.aboutcontainer{
+  text-align: left;
+}
+
+
+.learnaboutus{
+  text-align: center;
+}
+
+.aboutarticlescontainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.mainnavcontainer li{
+  list-style: none;
+  color: rgb(231, 202, 202);
+}
+
+.headcontainer{
+  display: grid;
+  grid-template-columns: 100%;
+  width: 99vw;
+  background-color: rgba(2, 2, 90, 0.856);
+  color: aliceblue;
+}
+
+.button{
+  background-color: aquamarine;
+}
+
+.techcontainer button{
+  width: 100px;
+  position: relative;
+  left: 47%;
+}
